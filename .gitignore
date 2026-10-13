@@ -1,0 +1,25 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Test and coverage cache
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# VS Code local workspace settings
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db

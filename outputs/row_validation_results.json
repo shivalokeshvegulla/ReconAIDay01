@@ -1,0 +1,181 @@
+{
+    "ledger": [
+        {
+            "source": "ledger.csv",
+            "row_number": 2,
+            "txn_ref": "TXN1001",
+            "valid": true,
+            "errors": [],
+            "row": {
+                "txn_ref": "TXN1001",
+                "value_date": "2026-10-01",
+                "currency": "USD",
+                "amount": "100.00"
+            }
+        },
+        {
+            "source": "ledger.csv",
+            "row_number": 3,
+            "txn_ref": "TXN1002",
+            "valid": true,
+            "errors": [],
+            "row": {
+                "txn_ref": "TXN1002",
+                "value_date": "2026-10-01",
+                "currency": "USD",
+                "amount": "250.00"
+            }
+        },
+        {
+            "source": "ledger.csv",
+            "row_number": 4,
+            "txn_ref": "TXN1003",
+            "valid": true,
+            "errors": [],
+            "row": {
+                "txn_ref": "TXN1003",
+                "value_date": "2026-10-02",
+                "currency": "EUR",
+                "amount": "75.50"
+            }
+        },
+        {
+            "source": "ledger.csv",
+            "row_number": 5,
+            "txn_ref": "TXN1004",
+            "valid": true,
+            "errors": [],
+            "row": {
+                "txn_ref": "TXN1004",
+                "value_date": "2026-10-02",
+                "currency": "INR",
+                "amount": "1200.00"
+            }
+        },
+        {
+            "source": "ledger.csv",
+            "row_number": 6,
+            "txn_ref": "TXN1006",
+            "valid": true,
+            "errors": [],
+            "row": {
+                "txn_ref": "TXN1006",
+                "value_date": "2026-10-03",
+                "currency": "USD",
+                "amount": "50.00"
+            }
+        }
+    ],
+    "settlement": [
+        {
+            "source": "settlement.csv",
+            "row_number": 2,
+            "txn_ref": "TXN1001",
+            "valid": true,
+            "errors": [],
+            "row": {
+                "txn_ref": "TXN1001",
+                "value_date": "2026-10-01",
+                "currency": "USD",
+                "amount": "100.00"
+            }
+        },
+        {
+            "source": "settlement.csv",
+            "row_number": 3,
+            "txn_ref": "TXN1002",
+            "valid": true,
+            "errors": [],
+            "row": {
+                "txn_ref": "TXN1002",
+                "value_date": "2026-10-01",
+                "currency": "USD",
+                "amount": "249.50"
+            }
+        },
+        {
+            "source": "settlement.csv",
+            "row_number": 4,
+            "txn_ref": "TXN1005",
+            "valid": true,
+            "errors": [],
+            "row": {
+                "txn_ref": "TXN1005",
+                "value_date": "2026-10-02",
+                "currency": "EUR",
+                "amount": "30.00"
+            }
+        },
+        {
+            "source": "settlement.csv",
+            "row_number": 5,
+            "txn_ref": "TXN1004",
+            "valid": true,
+            "errors": [],
+            "row": {
+                "txn_ref": "TXN1004",
+                "value_date": "2026-10-02",
+                "currency": "INR",
+                "amount": "1200.00"
+            }
+        },
+        {
+            "source": "settlement.csv",
+            "row_number": 6,
+            "txn_ref": "TXN1006",
+            "valid": true,
+            "errors": [],
+            "row": {
+                "txn_ref": "TXN1006",
+                "value_date": "2026-10-03",
+                "currency": "USD",
+                "amount": "50.00"
+            }
+        }
+    ],
+    "bad_amount": [
+        {
+            "source": "bad_amount.csv",
+            "row_number": 2,
+            "txn_ref": "TXN3001",
+            "valid": true,
+            "errors": [],
+            "row": {
+                "txn_ref": "TXN3001",
+                "value_date": "2026-10-04",
+                "currency": "USD",
+                "amount": "12.00"
+            }
+        },
+        {
+            "source": "bad_amount.csv",
+            "row_number": 3,
+            "txn_ref": "TXN3002",
+            "valid": false,
+            "errors": [
+                "Invalid amount: amount must be numeric"
+            ],
+            "row": {
+                "txn_ref": "TXN3002",
+                "value_date": "2026-10-04",
+                "currency": "USD",
+                "amount": "not_a_number"
+            }
+        },
+        {
+            "source": "bad_amount.csv",
+            "row_number": 4,
+            "txn_ref": "TXN3003",
+            "valid": false,
+            "errors": [
+                "Missing required field: amount"
+            ],
+            "row": {
+                "txn_ref": "TXN3003",
+                "value_date": "2026-10-04",
+                "currency": "USD",
+                "amount": ""
+            }
+        }
+    ]
+}

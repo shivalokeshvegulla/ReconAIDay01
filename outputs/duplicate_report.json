@@ -1,0 +1,16 @@
+{
+    "ledger": [],
+    "settlement": [],
+    "duplicate_test": [
+        {
+            "source": "duplicate_settlement.csv",
+            "row_number": 3,
+            "key": [
+                "TXN2001",
+                "2026-10-03",
+                "USD"
+            ],
+            "reason": "Duplicate transaction key"
+        }
+    ]
+}

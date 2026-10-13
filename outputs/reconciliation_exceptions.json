@@ -1,0 +1,43 @@
+{
+    "exceptions": [
+        {
+            "type": "missing_in_settlement",
+            "key": [
+                "TXN1003",
+                "2026-10-02",
+                "EUR"
+            ],
+            "ledger_row": {
+                "txn_ref": "TXN1003",
+                "value_date": "2026-10-02",
+                "currency": "EUR",
+                "amount": "75.50"
+            }
+        },
+        {
+            "type": "missing_in_ledger",
+            "key": [
+                "TXN1005",
+                "2026-10-02",
+                "EUR"
+            ],
+            "settlement_row": {
+                "txn_ref": "TXN1005",
+                "value_date": "2026-10-02",
+                "currency": "EUR",
+                "amount": "30.00"
+            }
+        },
+        {
+            "type": "amount_mismatch",
+            "key": [
+                "TXN1002",
+                "2026-10-01",
+                "USD"
+            ],
+            "ledger_amount": "250.00",
+            "settlement_amount": "249.50",
+            "difference": "0.50"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+
+{
+  "required_fields": [
+    "txn_ref",
+    "value_date",
+    "currency",
+    "amount"
+  ],
+  "field_types": {
+    "txn_ref": "string",
+    "value_date": "date",
+    "currency": "string",
+    "amount": "decimal"
+  },
+  "join_keys": [
+    "txn_ref",
+    "value_date",
+    "currency"
+  ],
+  "amount_tolerance": "0.01",
+  "date_format": "YYYY-MM-DD",
+  "allowed_currencies": [
+    "USD",
+    "EUR",
+    "GBP",
+    "INR"
+  ]
+}

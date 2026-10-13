@@ -1,0 +1,37 @@
+{
+    "ledger": {
+        "row_count": 5,
+        "valid_count": 5,
+        "invalid_count": 0,
+        "raw_totals_by_currency": {
+            "USD": "400.00",
+            "EUR": "75.50",
+            "INR": "1200.00"
+        },
+        "validated_totals_by_currency": {
+            "USD": "400.00",
+            "EUR": "75.50",
+            "INR": "1200.00"
+        }
+    },
+    "settlement": {
+        "row_count": 5,
+        "valid_count": 5,
+        "invalid_count": 0,
+        "raw_totals_by_currency": {
+            "USD": "399.50",
+            "EUR": "30.00",
+            "INR": "1200.00"
+        },
+        "validated_totals_by_currency": {
+            "USD": "399.50",
+            "EUR": "30.00",
+            "INR": "1200.00"
+        }
+    },
+    "raw_total_difference_ledger_minus_settlement": {
+        "EUR": "45.50",
+        "INR": "0.00",
+        "USD": "0.50"
+    }
+}

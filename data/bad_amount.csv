@@ -1,0 +1,4 @@
+txn_ref,value_date,currency,amount
+TXN3001,2026-10-04,USD,12.00
+TXN3002,2026-10-04,USD,not_a_number
+TXN3003,2026-10-04,USD,
